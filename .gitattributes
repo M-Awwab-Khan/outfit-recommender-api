@@ -1,0 +1,8 @@
+# .gitattributes
+* text=auto
+README.md text
+main.py text
+requirements.txt text
+interface.py text
+app.py text
+spaces: sdk=fastapi

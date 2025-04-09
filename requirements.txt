@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+numpy
+Pillow
+scikit-learn
+transformers
+torch
+torchvision
+certifi
