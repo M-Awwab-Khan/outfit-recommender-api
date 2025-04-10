@@ -13,6 +13,11 @@ class OutfitRequest(BaseModel):
     min_similarity: float = 0.7  # Optional threshold
 
 
+@app.get("/")
+async def root():
+    return {"message": "Welcome to the Outfit Recommendation API!"}
+
+
 @app.post("/recommend")
 async def recommend_outfit(req: OutfitRequest):
     try:
